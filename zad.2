@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+class Circle{
+public:
+    float radius_;
+    Circle(float Parameter);
+    Circle();
+};
+
+Circle::Circle() {}
+
+Circle::Circle(float Parameter){
+    radius_=Parameter;
+}
+
+int main(){
+
+Circle kolo1(7), kolo2(3);
+    
+    cout<<kolo1.radius_<<endl;
+    cout<<kolo2.radius_<<endl;
+
+return 0;
+
+}
